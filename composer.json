@@ -1,0 +1,15 @@
+{
+    "name" : "codefire/cfusermgmt",
+    "description" : "User management Plugin",
+    "keywords" : ["User management Plugin"],
+    "homepage" : "https://github.com/codefiretech/cfusermgmt",
+    "authors" : [{
+		"name" : "Pranjal"
+    }],
+    "autoload" : {
+		"psr-0" : {"src" : ""}
+    },
+    "require" : {
+    "php": ">=5.3.3"
+    }
+ }
