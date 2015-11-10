@@ -1,6 +1,7 @@
 {
     "name" : "codefire/cfusermgmt",
     "description" : "User management Plugin",
+    "version": "1.0.0",
     "keywords" : ["User management Plugin"],
     "homepage" : "https://github.com/codefiretech/cfusermgmt",
     "authors" : [{
