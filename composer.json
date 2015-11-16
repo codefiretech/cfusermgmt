@@ -11,12 +11,13 @@
             "email": "pranjal@codefire.in"
         }
     ],
-    "require": {
-        "codefiretech/cfusermgmt": "dev-master"
-    },
+    "repositories": [{
+		"type": "package",
+		"url": "https://github.com/codefiretech/cfusermgmt",
+	}],
     "autoload": {
         "psr-4": {
-            "\\codefire\\cfusermgmt": ""
+            "\\codefiretech\\cfusermgmt": ""
         }
     }
 }
