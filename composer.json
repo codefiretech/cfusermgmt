@@ -12,7 +12,7 @@
         }
     ],
     "repositories": [{
-		"type": "package",
+		"type": "git",
 		"url": "https://github.com/codefiretech/cfusermgmt",
 	}],
     "require": {
