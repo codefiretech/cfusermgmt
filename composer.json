@@ -2,26 +2,16 @@
     "name": "codefiretech/usermgmt",
     "description": "The users module for Yii framework.",
     "homepage" : "https://github.com/codefiretech/usermgmt",
+    "version": "1.0.0",
     "authors": [
         {
             "name" : "Pranjal",
             "email": "pranjal@codefire.in"
         }
     ],
-    "repositories": [{
-		"type": "package",
-			"package": {
-				"name": "codefiretech/usermgmt",
-				"version": "1.0.0",
-				"source": {
-					"url": "git@github.com:codefiretech/usermgmt.git",
-					"type": "git",
-					"reference": "dev-master"
-				}
-			}
-    }],
-    "require": {
-        "codefiretech/usermgmt": "1.*"
+    "repositories": {				
+		"url": "git@github.com:codefiretech/usermgmt.git",
+		"type": "git"
     },
     "autoload": {
         "psr-4": {
