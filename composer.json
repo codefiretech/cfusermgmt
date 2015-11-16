@@ -10,12 +10,11 @@
         }
     ],
     "repositories": {				
-		"url": "git@github.com:codefiretech/usermgmt.git",
-		"type": "git"
+		"url": "https://github.com/codefiretech/usermgmt.git"
     },
     "autoload": {
         "psr-4": {
-			"usermgmt": "vendor/codefire/usermgmt/"
+			"usermgmt": "codefire/usermgmt/"
         }
     }
 }
