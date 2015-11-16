@@ -9,10 +9,6 @@
             "email": "pranjal@codefire.in"
         }
     ],
-    "repositories": [{
-		"type": "git",
-		"url": "https://github.com/codefiretech/usermgmt.git"
-    }],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
