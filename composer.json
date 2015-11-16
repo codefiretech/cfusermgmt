@@ -11,6 +11,10 @@
             "email": "pranjal@codefire.in"
         }
     ],
+    "repositories": [{
+		"type": "package",
+		"url": "https://github.com/codefiretech/cfusermgmt",
+	}],
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-swiftmailer": "*"
