@@ -12,11 +12,11 @@
         }
     ],
     "require": {
-        "codefiretech/cfusermgmt": "master"
+        "codefiretech/cfusermgmt": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "\\codefire\\cfusermgmt": ""
+            "\\codefiretech\\cfusermgmt": ""
         }
     }
 }
