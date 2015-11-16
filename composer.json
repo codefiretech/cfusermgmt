@@ -14,7 +14,7 @@
 				"name": "codefiretech/cfusermgmt",
 				"version": "1.0.0",
 				"source": {
-					"url": "https://github.com/codefiretech/cfusermgmt.git",
+					"url": "git@github.com:codefiretech/cfusermgmt.git",
 					"type": "git",
 					"reference": "dev-master"
 				}
