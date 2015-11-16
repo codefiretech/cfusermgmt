@@ -12,7 +12,6 @@
         }
     ],
     "repositories": [{
-		"type": "git",
 		"url": "https://github.com/codefiretech/cfusermgmt.git",
 	}],
     "autoload": {
