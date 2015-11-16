@@ -1,6 +1,9 @@
 {
-    "name": "codefiretech/usermgmt",
+    "name": "codefiretech/cfusermgmt",
     "description": "The users module for Yii framework.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "users", "user", "module", "modules", "account", "management", "profile", "profiles"],
+    "version": "1.0.0",
     "homepage" : "https://github.com/codefiretech/cfusermgmt",
     "authors": [
         {
@@ -10,22 +13,16 @@
     ],
     "repositories": [{
 		"type": "package",
-			"package": {
-				"name": "codefiretech/usermgmt",
-				"version": "1.0.0",
-				"source": {
-					"url": "git@github.com:codefiretech/cfusermgmt.git",
-					"type": "git",
-					"reference": "dev-master"
-				}
-			}
-    }],
+		"url": "https://github.com/codefiretech/cfusermgmt.git",
+	}],
     "require": {
-        "codefiretech/usermgmt": "1.*"
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "codefiretech/cfusermgmt"
     },
     "autoload": {
         "psr-4": {
-			"usermgmt": "vendor/codefire/cfusermgmt/"
+            "\\codefire\\cfusermgmt": ""
         }
     }
 }
