@@ -1,5 +1,5 @@
 {
-    "name": "codefiretech/cfusermgmt",
+    "name": "codefiretech/usermgmt",
     "description": "The users module for Yii framework.",
     "homepage" : "https://github.com/codefiretech/cfusermgmt",
     "authors": [
@@ -11,7 +11,7 @@
     "repositories": [{
 		"type": "package",
 			"package": {
-				"name": "codefiretech/cfusermgmt",
+				"name": "codefiretech/usermgmt",
 				"version": "1.0.0",
 				"source": {
 					"url": "git@github.com:codefiretech/cfusermgmt.git",
@@ -21,11 +21,11 @@
 			}
     }],
     "require": {
-        "codefiretech/cfusermgmt": "1.*"
+        "codefiretech/usermgmt": "1.*"
     },
     "autoload": {
         "psr-4": {
-			"cfusermgmt": "vendor/codefire/cfusermgmt/"
+			"usermgmt": "vendor/codefire/cfusermgmt/"
         }
     }
 }
