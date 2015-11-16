@@ -20,6 +20,9 @@
 				}
 			}
     }],
+    "require": {
+        "codefiretech/cfusermgmt": "1.*"
+    },
     "autoload": {
         "psr-4": {
 			"cfusermgmt": "vendor/codefire/cfusermgmt/"
