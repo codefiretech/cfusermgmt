@@ -13,8 +13,12 @@
     ],
     "repositories": [{
 		"type": "package",
-		"url": "https://github.com/codefiretech/cfusermgmt.git",
+		"url": "https://github.com/codefiretech/cfusermgmt",
 	}],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-swiftmailer": "*"
+    },
     "autoload": {
         "psr-4": {
             "\\codefire\\cfusermgmt": ""
