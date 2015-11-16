@@ -1,16 +1,25 @@
 {
-    "name" : "codefire/cfusermgmt",
-    "description" : "User management Plugin",
+    "name": "codefire/cfusermgmt",
+    "description": "The users module for Yii framework.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "users", "user", "module", "modules", "account", "management", "profile", "profiles"],
+    "license": "BSD-3-Clause",
     "version": "1.0.0",
-    "keywords" : ["User management Plugin"],
     "homepage" : "https://github.com/codefiretech/cfusermgmt",
-    "authors" : [{
-		"name" : "Pranjal"
-    }],
-    "autoload" : {
-		"psr-4" : {"src" : ""}
+    "authors": [
+        {
+            "name" : "Pranjal",
+            "email": "pranjal@codefire.in"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-bootstrap": "*"
     },
-    "require" : {
-    "php": ">=5.3.3"
+    "autoload": {
+        "psr-4": {
+            "\\codefire\\cfusermgmt": ""
+        }
     }
- }
+}
