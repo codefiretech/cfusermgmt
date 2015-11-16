@@ -16,7 +16,7 @@
 				"source": {
 					"url": "https://github.com/codefiretech/cfusermgmt.git",
 					"type": "git",
-					"reference": "1.0.0"
+					"reference": "dev-master"
 				}
 			}
     }],
