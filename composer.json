@@ -11,18 +11,7 @@
             "email": "pranjal@codefire.in"
         }
     ],
-    "repositories": [{
-		"type": "package",
-		"url": "https://github.com/codefiretech/usermgmt.git",
-	}],
     "require": {
-        "yiisoft/yii2": "*",
-        "yiisoft/yii2-swiftmailer": "*",
         "codefiretech/usermgmt"
-    },
-    "autoload": {
-        "psr-4": {
-            "\\codefire\\usermgmt": ""
-        }
     }
 }
