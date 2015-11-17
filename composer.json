@@ -13,5 +13,6 @@
             "type": "vcs",
             "url": "https://github.com/Seldaek/monolog"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
