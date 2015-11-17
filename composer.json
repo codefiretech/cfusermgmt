@@ -9,12 +9,13 @@
         }
     ],
      "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "codefiretech/usermgmt": "@dev"
     },
     "autoload": {
         "psr-4": {
 			"codefiretech\\usermgmt\\": "*"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
