@@ -16,5 +16,5 @@
 			"codefiretech\\usermgmt\\": "*"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
